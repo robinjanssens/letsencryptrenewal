@@ -8,12 +8,12 @@
 
 ### Schedule using cron
 - `sudo crontab -e`<br>
-- Add the following rule `0 2 * * Mon bash /opt/letsencryptrenewal.sh`<br>
+- Add the following rule `0 2 * * Mon bash /opt/letsencryptrenewal/letsencryptrenewal.sh`<br>
   which means update every Monday at 2 am (server time)
 
 | Minutes | Hour | Day of Month | Month | Day of Week | Command |
 | ------- | ---- | ------------ | ----- | ----------- | ------- |
-| 0       | 2    | *            | *     | Mon         | bash /opt/letsencryptrenewal.sh |
+| 0       | 2    | *            | *     | Mon         | bash /opt/letsencryptrenewal/letsencryptrenewal.sh |
 
 ## Logs
 Default logfile can be found at `/var/log/letsencryptrenewal.log`<br>
