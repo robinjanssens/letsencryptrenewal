@@ -18,3 +18,7 @@
 ## Logs
 Default logfile can be found at `/var/log/letsencryptrenewal.log`<br>
 Log location can be changed in the script.
+
+## Troubleshooting
+The script is written using the default location of the letsencrypt package `/opt/letsencrypt`<br>
+If Let's Encrypt is situated at another location you can change it to the right location in the script.
