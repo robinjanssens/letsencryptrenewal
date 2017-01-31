@@ -16,5 +16,5 @@
 | 0       | 2    | *            | *     | Mon         | bash /opt/letsencryptrenewal.sh |
 
 ## Logs
-Default logfile can be found at /var/log/letsencryptrenewal.log<br>
+Default logfile can be found at `/var/log/letsencryptrenewal.log`<br>
 Log location can be changed in the script.
