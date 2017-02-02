@@ -2,6 +2,9 @@
 
 ## Install
 
+### Install Let's Encrypt
+- [see Let's Encrypt docs](https://letsencrypt.org/docs/)
+
 ### Clone repo
 - `cd /opt`<br>
 - `sudo git clone https://github.com/robinjanssens/letsencryptrenewal.git`
