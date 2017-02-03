@@ -18,8 +18,14 @@
 | ------- | ---- | ------------ | ----- | ----------- | ------- |
 | 0       | 2    | *            | *     | Mon         | bash /opt/letsencryptrenewal/letsencryptrenewal.sh |
 
+## Create new Certificates
+- `/opt/letsencrypt/certbot-auto certonly`
+- Follow the instructions
+
+The new certificates will automatically be renewed.
+
 ## Logs
-Default logfile can be found at `/var/log/letsencryptrenewal.log`<br>
+Default log file can be found at `/var/log/letsencryptrenewal.log`<br>
 Log location can be changed in the script.
 
 ## Troubleshooting
