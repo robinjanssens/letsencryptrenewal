@@ -1,5 +1,5 @@
 # /bin/bash
-logfile="/var/letsencryptrenewal.log"
+logfile="/var/log/letsencryptrenewal.log"
 if [ ! -f $logfile ]; then
     touch $logfile
 fi
